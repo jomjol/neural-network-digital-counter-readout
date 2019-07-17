@@ -9,7 +9,7 @@ An image of a number between 0 and 9 should be recognized and converted to the c
 To solve this problem a neural network approach is used.
 
 The rolling counter meter looks like following:
-<img src="./images/counter_complete.jpg" width="250">  
+<img src="./images/counter_complete.png" width="250">  
 
 The image is sliced into individual pictures, which are analysed by a neural network.
 
@@ -21,7 +21,7 @@ Here a classic approach is used to classify the picture into 11 output classes r
 
 | Picture        | Value           | Picture        | Value           | Picture        | Value           | Picture        | Value           |
 | ------------- |:-------------:| ------------- |:-------------:|------------- |:-------------:| ------------- |:-------------:|
-| <img src="./images/counter2.jpg" width="80"> | 2 | <img src="./images/counter6.jpg" width="80"> | 6 |<img src="./images/counter9.jpg" width="80"> | 9 | <img src="./images/counterNaN.jpg" width="80"> | NaN |
+| <img src="./images/counter2.jpg" width="60"> | 2 | <img src="./images/counter6.jpg" width="60"> | 6 |<img src="./images/counter9.jpg" width="60"> | 9 | <img src="./images/counterNaN.jpg" width="60"> | NaN |
 
 
 ### Labeled Training Data
