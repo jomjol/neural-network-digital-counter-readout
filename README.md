@@ -9,6 +9,7 @@ An image of a number between 0 and 9 should be recognized and converted to the c
 To solve this problem a neural network approach is used.
 
 The rolling counter meter looks like following:
+
 <img src="./images/counter_complete.png" width="250">  
 
 The image is sliced into individual pictures, which are analysed by a neural network.
@@ -26,7 +27,7 @@ Here a classic approach is used to classify the picture into 11 output classes r
 
 ### Labeled Training Data
 
-The images are coming from a camera system described elsewhere ([Overview](https://github.com/jomjol/water-meter-measurement-system), [HW](https://www.thingiverse.com/thing:3238162), [SW](https://github.com/jomjol/water-meter-picture-provider)). One major effort is to label the pictures with the target value. The labeling is done by hand. For each digit about 150 images are collected. For the "NaN" category about 4000 images were taken. The picture are rescaled to 32x20 pixels with RGB color (3 channels).
+The images are coming from a camera system described elsewhere ([Overview](https://github.com/jomjol/water-meter-measurement-system), [HW](https://www.thingiverse.com/thing:3238162), [SW](https://github.com/jomjol/water-meter-picture-provider)). One major effort is to label the pictures with the target value. The labeling is done by hand. For each digit about 150 images are collected. For the "NaN" category about 3700 images were taken. The picture are rescaled to 32x20 pixels with RGB color (3 channels).
 
 The resized pictures (subfolder Train-CNN_Analog-Needle-Readout/data_resize_all_NaN) as well as the original pictures (zipped in file "data_raw_all.zip") are included in the dataset. The pictures are stored in a subfolder for each digit (and NaN).
 
