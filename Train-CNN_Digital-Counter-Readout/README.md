@@ -29,7 +29,8 @@ Scattering the input images by brightness, pixel shift, rotation and zooming for
 
 * Brightness was scattered with +/-30%
 
-* The position was scattered with +/-1 pixel in each direction. As the original picture is alsmost 3 times bigger (55x90 pixel) this ensures enough uncertainty to the upstream image alignment and cut out procedure.
+* The position was scattered with +/-1 pixel in each direction. 
+As the original picture is alsmost 3 times bigger (55x90 pixel) this ensures enough uncertainty to the upstream image alignment and cut out procedure.
 
 * The rotation is scattered for +/-10°
 
