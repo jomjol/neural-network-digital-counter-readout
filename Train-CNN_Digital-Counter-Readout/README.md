@@ -36,6 +36,6 @@ As the original picture is alsmost 3 times bigger (55x90 pixel) this ensures eno
 
 * The zooming is changing vom 90% to 110%.
 
-An example can be seen here:
+Examples of an augumented picture can be seen here:
 
 <img src="./images/image_augmentation.png">

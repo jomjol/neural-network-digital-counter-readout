@@ -7,11 +7,11 @@ Path are relative, so it should run immediatly with the following command:
 * `node server_analog_readout_converter.js`
 
 ### Remarks
-* Python assumes some libraries to be installed using `pip`:
-	* opencv4nodejs
-	* @tensorflow/tfjs-node
-	* @tensorflow/tfjs
-	* jpeg-js
+* Python assumes some libraries to be installed using `pip install`:
+	* `opencv4nodejs`
+	* `@tensorflow/tfjs-node`
+	* `@tensorflow/tfjs`
+	* `jpeg-js`
 	
 As most of the other system is encoded in node.js I decided not to directly use python, but instead set up the usage of the neural network in an node.js environment. The **tensorflow** library is also supported for node.js and beside installing the supporting libraries, there is only one barrier to overcome:
 
