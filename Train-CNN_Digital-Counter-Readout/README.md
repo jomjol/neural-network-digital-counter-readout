@@ -7,7 +7,7 @@ The training is done using Keras in a python environment. For training purpuses 
 ## Network Structure
 The network consists of several Conv2D, MaxPooling and Flatten Layers:
 
-<img src="./images/cnn_structure.png">
+<img src="./images/cnn_digital-counter_structure.png">
 
 The structure was developed in an empirical way. 
 
