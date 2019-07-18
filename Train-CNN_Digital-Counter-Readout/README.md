@@ -27,13 +27,13 @@ The following aspects are implemented:
 #### Scattering input images
 Scattering the input images by brightness, pixel shift, rotation and zooming for training variations improved the stability of the network a lot.
 
-Brightness was scattered with +/-30%
+* Brightness was scattered with +/-30%
 
-The position was scattered with +/-1 pixel in each direction. As the original picture is alsmost 3 times bigger (55x90 pixel) this ensures enough uncertainty to the upstream image alignment and cut out procedure.
+* The position was scattered with +/-1 pixel in each direction. As the original picture is alsmost 3 times bigger (55x90 pixel) this ensures enough uncertainty to the upstream image alignment and cut out procedure.
 
-The rotation is scattered for +/-10°
+* The rotation is scattered for +/-10°
 
-The zooming is changing vom 90% to 110%.
+* The zooming is changing vom 90% to 110%.
 
 An example can be seen here:
 
