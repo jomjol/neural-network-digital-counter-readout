@@ -4,7 +4,7 @@ Details on setup and training of the CNN neural network
 To run the node.js code copy the whole directory (minimum: server_digital_readout_converter.js) and the subdirectory "lib" and "image".
 
 Path are relative, so it should run immediatly with the following command:
-* `node server_analog_readout_converter.js`
+* `node server_digital_readout_converter.js`
 
 ### Remarks
 * Python assumes some libraries to be installed using `pip install`:
