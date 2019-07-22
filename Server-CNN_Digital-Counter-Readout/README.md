@@ -1,7 +1,7 @@
 # Node server using an neural network with tensorflow
 Details on setup and training of the CNN neural network
 
-To run the node.js code copy the whole directory (minimum: server_digital_readout_converter.js) and the subdirectory "lib" and "image".
+To run the node.js code copy the whole [code](code) directory including subdirectory.
 
 Path are relative, so it should run immediatly with the following command:
 * `node server_digital_readout_converter.js`

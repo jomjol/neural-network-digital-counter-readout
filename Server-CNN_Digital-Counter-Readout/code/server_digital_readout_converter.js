@@ -19,21 +19,21 @@ var abfrage = function(req, res) {
     if (filename)
     {
         console.log(filename);
-        var file_download = fs.createWriteStream("./image/original.jpg");
+        var file_download = fs.createWriteStream("./image_tmp/original.jpg");
         http.get(filename, (response) => {response.pipe(file_download);});
 
         file_download.on('finish', function(){
             file_download.end();
 
-            ImageResize("./image/original.jpg", "./image/resize.jpg");
+            ImageResize("./image_tmp/original.jpg", "./image_tmp/resize.jpg");
      
-            readCounter.Readout('./image/resize.jpg').then(result => {
+            readCounter.Readout('./image_tmp/resize.jpg').then(result => {
                 console.log('Counter Readout: ' + result);
 
                 res.writeHead(200, {'Content-Type': 'text/html'});
                 var txt = "";
-                txt += 'Original: <p><img src=/image/original.jpg></img><p>';
-                txt += 'Resize (20x32): <p><img src=/image/resize.jpg></img><p>';
+                txt += 'Original: <p><img src=/image_tmp/original.jpg></img><p>';
+                txt += 'Resize (20x32): <p><img src=/image_tmp/resize.jpg></img><p>';
                 txt += "Counter_Readout:\t" + result;
 
                 res.end(txt);}
@@ -41,7 +41,7 @@ var abfrage = function(req, res) {
         });
     }
 
-    if ((req.url == '/image/resize.jpg') || (req.url == '/image/original.jpg'))
+    if ((req.url == '/image_tmp/resize.jpg') || (req.url == '/image_tmp/original.jpg'))
     {
         var s = fs.createReadStream("." + req.url);
         s.on('open', function () {
