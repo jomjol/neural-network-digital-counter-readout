@@ -1,6 +1,12 @@
 # Training the CNN neural network
 Details on setup and training of the CNN neural network
 
+## Version
+##### 1.0 Initial Version
+##### 2.0 Transfer from Node.JS to Python
+* Change Image handling completely to OpenCV-Library
+* Learning with increased ZoomRange (10% --> 40%), learning within one step
+
 ## Software Environment
 The training is done using Keras in a python environment. For training purpuses the code is documented in Jupyter notebooks. The environment is setup using Ananconda with Python 3.7.
 
@@ -34,7 +40,7 @@ As the original picture is alsmost 3 times bigger (55x90 pixel) this ensures eno
 
 * The rotation is scattered for +/-10°
 
-* The zooming is changing vom 90% to 110%.
+* The zooming is changing vom 60% to 140%.
 
 Examples of an augumented picture can be seen here:
 
