@@ -1,5 +1,11 @@
-# Node server using an neural network with tensorflow
+# Pyhton server using an neural network with tensorflow
 Details on setup and training of the CNN neural network
+
+## Version
+##### 1.0 Initial Version
+##### 2.0 Transfer from Node.JS to Python
+* Transfer from NodeJS to Python
+* Implementation of configuration file and log-Algorithm
 
 To run the Python code copy the whole [code](code) directory including subdirectory.
 
