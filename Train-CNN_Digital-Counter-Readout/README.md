@@ -1,11 +1,11 @@
 # Training the CNN neural network
 Details on setup and training of the CNN neural network
 
-## Version
-##### 1.0 Initial Version
-##### 2.0 Transfer from Node.JS to Python
-* Change Image handling completely to OpenCV-Library
-* Learning with increased ZoomRange (10% --> 40%), learning within one step
+#### 4.0.0 Current Version - Tensorflow 2.0
+* Image processing changed to Pillow (remove OpenCV)
+* Usage of Tensorflow 2.0 for training
+### [Overview older Versions](Versions.md)
+
 
 ## Software Environment
 The training is done using Keras in a python environment. For training purpuses the code is documented in Jupyter notebooks. The environment is setup using Ananconda with Python 3.7.
