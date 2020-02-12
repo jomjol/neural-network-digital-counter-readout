@@ -1,6 +1,8 @@
 # Training the CNN neural network
 Details on setup and training of the CNN neural network
 
+#### 4.2.0 Current Version - Tensorflow 2.0
+* Training of additional digital number (provided from iobroker users)
 #### 4.0.0 Current Version - Tensorflow 2.0
 * Image processing changed to Pillow (remove OpenCV)
 * Usage of Tensorflow 2.0 for training
