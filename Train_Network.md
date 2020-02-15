@@ -16,7 +16,7 @@ The structure was developed in an empirical way.
 
 The training data consists of images of the rolling counter meter a size of 20x32 pixels and RGB color code. The expected digital value is encoded in the subdirectory, in which the image is stored.
 
-For reshaping the images the following code can be used: [Image_Preparation.ipynb]
+For reshaping the images the following code can be used: [Image_Preparation.ipynb](Image_Preparation.ipynb)
 
 ## Training strategy
 
