@@ -1,14 +1,6 @@
 # Training the CNN neural network
 Details on setup and training of the CNN neural network
 
-#### 4.2.0 Current Version - Tensorflow 2.0
-* Training of additional digital number (provided from iobroker users)
-#### 4.0.0 Current Version - Tensorflow 2.0
-* Image processing changed to Pillow (remove OpenCV)
-* Usage of Tensorflow 2.0 for training
-### [Overview older Versions](Versions.md)
-
-
 ## Software Environment
 The training is done using Keras in a python environment. For training purpuses the code is documented in Jupyter notebooks. The environment is setup using Ananconda with Python 3.7.
 
@@ -38,7 +30,7 @@ Scattering the input images by brightness, pixel shift, rotation and zooming for
 * Brightness was scattered with +/-30%
 
 * The position was scattered with +/-1 pixel in each direction. 
-As the original picture is alsmost 3 times bigger (55x90 pixel) this ensures enough uncertainty to the upstream image alignment and cut out procedure.
+As the original picture is almost 3 times bigger (55x90 pixel) this ensures enough uncertainty to the upstream image alignment and cut out procedure.
 
 * The rotation is scattered for +/-10°
 

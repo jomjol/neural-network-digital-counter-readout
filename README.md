@@ -7,7 +7,7 @@ The readout is used in a water meter measurement system. An overview can be foun
 * Training with new picture from iobroker users
 * Removal of standalone server - (included in main project)Training of additional digital number (provided from iobroker users)
 
-### [Overview older Versions](Versions.md)
+#### [Overview older Versions](Versions.md)
 
 ## Problem to solve
 
@@ -41,11 +41,11 @@ The resized pictures as well as the original pictures (zipped in file "data_raw_
 
 The training is done using Keras in a python environment. For training purpuses the code is documented in Jupyter notebooks. The environment is setup using Ananconda with Python 3.7[1]. 
 
-The training is descibed in detail in an Jyupither Notebook: [How to Train the Network](Train_Network.md).
+The training is descibed in detail in an Jyupither Notebook: **[How to Train the Network](Train_Network.md)**.
 
 The trained network is stored in the Keras H5-format and used as an input for a simple usage in the main project for a water meter readout: [https://github.com/jomjol/water-meter-system-complete](https://github.com/jomjol/water-meter-system-complete)
 
-Hopefully you have fun with neural networks and find this usefull. 
+Hopefully you have fun with neural networks and find this useful. 
 
 **Any questions, hints, improvements are very welcome through the GitHub channel**
 
@@ -54,7 +54,7 @@ Best regards,
 **jomjol**
   
   
-[1]: The following book is found very usefull for background, basic setting and different approaches:  
+[1]: The following book is found very useful for background, basic setting and different approaches:  
 Mattheiu Deru and Alassane Ndiaye: Deep Learning with TensorFlow, Keras, und Tensorflow.js
 
 
