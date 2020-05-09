@@ -3,6 +3,10 @@ Training and using a neural network to readout the value of a digital counter - 
 
 The readout is used in a water meter measurement system. An overview can be found here: [https://github.com/jomjol/water-meter-measurement-system](https://github.com/jomjol/water-meter-measurement-system)
 
+#### 6.1.0 Current Version - (2020-05-09)
+* Training with new picture from iobroker users
+* For size minimized tflite-File implemented ("_quantized")
+
 #### 6.0.0 Current Version - Tensorflow 2.1 (2020-04-18)
 * Updated to Tensorflow 2.1
 * additional export to TF-Lite Version (.tflite)
