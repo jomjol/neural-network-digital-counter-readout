@@ -3,10 +3,14 @@ Training and using a neural network to readout the value of a digital counter - 
 
 The readout is used in a water meter measurement system. An overview can be found here: [https://github.com/jomjol/water-meter-measurement-system](https://github.com/jomjol/water-meter-measurement-system)
 
-#### 6.1.2 Current Version - (2020-0615)
+#### 6.2.0 Current Version - (2020-07-11)
+* Training with new picture from iobroker users
+* White on black, white on red digits
+
+#### 6.1.2 Version - (2020-06-15)
 * Training with new picture from iobroker users
 
-#### 6.1.1 Current Version - (2020-05-29)
+#### 6.1.1 Version - (2020-05-29)
 * Training with new picture from iobroker users
 
 #### 6.1.0 Version (2020-05-09)
