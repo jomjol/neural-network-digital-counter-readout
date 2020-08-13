@@ -7,21 +7,6 @@ The readout is used in a water meter measurement system. An overview can be foun
 * Training with new picture from iobroker users
 * White on black, white on red digits
 
-#### 6.1.2 Version - (2020-06-15)
-* Training with new picture from iobroker users
-
-#### 6.1.1 Version - (2020-05-29)
-* Training with new picture from iobroker users
-
-#### 6.1.0 Version (2020-05-09)
-* Training with new picture from iobroker users
-* For size minimized tflite-File implemented ("_quantized")
-
-#### 6.0.0 Tensorflow 2.1 (2020-04-18)
-* Updated to Tensorflow 2.1
-* additional export to TF-Lite Version (.tflite)
-* Training with new picture from iobroker users
-
 
 #### [Overview older Versions](Versions.md)
 
@@ -68,10 +53,10 @@ Hopefully you have fun with neural networks and find this useful.
 Best regards,
 
 **jomjol**
-  
-  
+
+
 [1]: The following book is found very useful for background, basic setting and different approaches:  
 Mattheiu Deru and Alassane Ndiaye: Deep Learning with TensorFlow, Keras, und Tensorflow.js
 
 
- 
+
