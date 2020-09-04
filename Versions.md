@@ -1,4 +1,9 @@
 ## Version
+#### 6.2.0 Current Version - (2020-07-11)
+
+* Training with new picture from iobroker users
+* White on black, white on red digits
+
 #### 6.1.2 Version - (2020-06-15)
 
 * Training with new picture from iobroker users

@@ -3,9 +3,16 @@ Training and using a neural network to readout the value of a digital counter - 
 
 The readout is used in a water meter measurement system. An overview can be found here: [https://github.com/jomjol/water-meter-measurement-system](https://github.com/jomjol/water-meter-measurement-system)
 
-#### 6.2.0 Current Version - (2020-07-11)
+#### 6.3.0 Current Version - (2020-09-02)
+
+* Relabeling of training images
+  * Take out unambiguous (number or NaN)  - criteria for number: complete picture is in the ROI visible
+[Labeling-Criteria.md](Labeling-Criteria.md)
+  * Remove replicated pictures
+* Implementation of "train all" parameter
+* Experiments with reduces network size for speeding up image recognition ("...-Small-vX.tflite")
 * Training with new picture from iobroker users
-* White on black, white on red digits
+* White on black, white on red digits - additional pictures
 
 
 #### [Overview older Versions](Versions.md)
@@ -37,6 +44,8 @@ Here a classic approach is used to classify the picture into 11 output classes r
 The images are coming from a camera system described elsewhere ([Overview](https://github.com/jomjol/water-meter-measurement-system), [HW](https://www.thingiverse.com/thing:3238162), [SW](https://github.com/jomjol/water-meter-picture-provider)). One major effort is to label the pictures with the target value. The labeling is done by hand. For each digit about 150 images are collected. For the "NaN" category about 3700 images were taken. The picture are rescaled to 32x20 pixels with RGB color (3 channels).
 
 The resized pictures as well as the original pictures (zipped in file "data_raw_all.zip") are included in the dataset. The pictures are stored in a subfolder for each digit (and NaN).
+
+The criteria for "good" and "bad" images are described here: [Labeling-Criteria.md](Labeling-Criteria.md)
 
 ## Training the network
 
