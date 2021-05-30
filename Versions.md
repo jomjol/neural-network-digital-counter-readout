@@ -1,7 +1,25 @@
 ## Version
-#### 8.3.0 Current Version - (2021-04-06)
+#### 8.7.0 Current Version - (2021-05-27)
+
+* Update with additional set of digits
+
+#### 8.6.0 Current Version - (2021-05-18)
+
+* Update with additional set of digits
+
+#### 8.5.0 Current Version - (2021-05-07)
 
 * Update with additional set up digits
+
+#### 8.3.1 Current Version - (2021-04-11)
+
+* Update with additional set up digits
+
+#### 8.2.0 Current Version - (2021-03-25)
+
+* Update with additional set up digits
+
+* Change file naming convention (tflite file)
 
 #### 8.1.1 Current Version - (2021-02-27)
 
