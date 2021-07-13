@@ -1,5 +1,24 @@
 ## Version
-#### 8.7.0 Current Version - (2021-05-27)
+#### 10.3.0 Current Version - (2021-06-29)
+
+* Update with additional set of digits
+
+#### 10.2.0 Current Version - (2021-06-27)
+
+* Update with additional set of digits
+
+#### 10.0.0 Current Version - (2021-06-19)
+
+* Removing of double images
+* Adding of V200 digits
+
+#### 9.0.1 Current Version - (2021-05-29)
+
+* NEW 9.0.1: Additional digits for the last variant
+* New type of LCD-numbers integrated (white on black)
+* Update with additional set of digits
+
+#### **8.7.0** Current Version - (2021-05-27)
 
 * Update with additional set of digits
 
