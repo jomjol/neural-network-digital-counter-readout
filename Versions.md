@@ -1,4 +1,13 @@
 ## Version
+#### 11.1.0 Current Version - (2021-07-28)
+
+* Additional images, new type of digits
+
+#### 11.0.0 Current Version - (2021-07-13)
+
+* Updated quantization implementation (use original images)
+* Internal improvements (speed)
+
 #### 10.3.0 Current Version - (2021-06-29)
 
 * Update with additional set of digits

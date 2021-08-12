@@ -5,14 +5,10 @@ The readout is used in a water meter measurement system. An overview can be foun
 
 
 
-#### 11.1.0 Current Version - (2021-07-28)
+#### 12.0.0 Current Version - (2021-08-01)
 
+* Save classification in file name instead of subdirectory
 * Additional images, new type of digits
-
-#### 11.0.0 Current Version - (2021-07-13)
-
-* Updated quantization implementation (use original images)
-* Internal improvements (speed)
 
 
 
