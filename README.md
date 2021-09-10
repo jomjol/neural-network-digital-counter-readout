@@ -5,6 +5,11 @@ The readout is used in a water meter measurement system. An overview can be foun
 
 
 
+#### 12.1.0 Current Version - (2021-09-10)
+
+* Adaption of augmentation range (reduction)
+* Additional images, new type of digits
+
 #### 12.0.0 Current Version - (2021-08-01)
 
 * Save classification in file name instead of subdirectory
