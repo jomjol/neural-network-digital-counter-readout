@@ -5,6 +5,10 @@ The readout is used in a water meter measurement system. An overview can be foun
 
 
 
+#### 13.0.0 Current Version - (2021-09-12)
+
+* New type of digits (green LCD)
+
 #### 12.1.0 Current Version - (2021-09-10)
 
 * Adaption of augmentation range (reduction)
