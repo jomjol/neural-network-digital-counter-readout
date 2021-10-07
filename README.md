@@ -5,6 +5,21 @@ The readout is used in a water meter measurement system. An overview can be foun
 
 
 
+#### 13.1.0 Current Version (2021-10-06)
+
+* New images (minor change)
+
+* License change (remove MIT license, remark see below)
+
+  
+
+**ATTENTION: LICENSE CHANGE - removal of MIT License.** 
+
+- Currently no licence published - copyright belongs to author
+- If you are interested in a commercial usage or dedicated versions please contact the developer
+
+
+
 #### 13.0.0 Current Version - (2021-09-12)
 
 * New type of digits (green LCD)
