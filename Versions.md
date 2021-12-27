@@ -1,5 +1,44 @@
 ## Version
-#### 11.1.0 Current Version - (2021-07-28)
+#### 13.3.0 Current Version (2021-11-23)
+
+* New images for digits
+* BMP as input for the rescaling script is now also supported
+
+#### 13.2.0 Current Version (2021-10-29)
+
+* New images (7-segment LCD, new analog types)
+* Changed convolutional layer 2 & 3 to RELU activation function
+
+#### 13.1.0 Current Version (2021-10-06)
+
+* New images (minor change)
+
+* License change (remove MIT license, remark see below)
+
+  
+
+**ATTENTION: LICENSE CHANGE - removal of MIT License.** 
+
+- Currently no licence published - copyright belongs to author
+- If you are interested in a commercial usage or dedicated versions please contact the developer
+
+
+
+#### 13.0.0 Current Version - (2021-09-12)
+
+* New type of digits (green LCD)
+
+#### 12.1.0 Current Version - (2021-09-10)
+
+* Adaption of augmentation range (reduction)
+* Additional images, new type of digits
+
+#### 12.0.0 Current Version - (2021-08-01)
+
+* Save classification in file name instead of subdirectory
+* Additional images, new type of digits
+
+11.1.0 Current Version - (2021-07-28)
 
 * Additional images, new type of digits
 

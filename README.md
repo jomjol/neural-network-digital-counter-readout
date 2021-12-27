@@ -1,46 +1,27 @@
 # neural-network-digital-counter-readout
+
+**<span style="color: red;">This repository is no longer in active usage - follow up see below!</span> **
+
+The follow up of this repository is https://github.com/jomjol/neural-network-autotrain-digital-counter
+
+Major changes.
+
+* automated training via GibHub Action
+* Higher quality of the trained network due to a more strict regulation on the input images.
+  **Attention:** due to the more strict limits on the input images not all training images are transferred to the new repository
+
+
+
 Training and using a neural network to readout the value of a digital counter - example including small node server for demonstration
 
 The readout is used in a water meter measurement system. An overview can be found here: [https://github.com/jomjol/water-meter-measurement-system](https://github.com/jomjol/water-meter-measurement-system)
 
-#### 13.3.0 Current Version (2021-11-23)
-
-* New images for digits
-* BMP as input for the rescaling script is now also supported
-
-#### 13.2.0 Current Version (2021-10-29)
-
-* New images (7-segment LCD, new analog types)
-* Changed convolutional layer 2 & 3 to RELU activation function
-
-#### 13.1.0 Current Version (2021-10-06)
-
-* New images (minor change)
-
-* License change (remove MIT license, remark see below)
-
-  
-
-**ATTENTION: LICENSE CHANGE - removal of MIT License.** 
-
-- Currently no licence published - copyright belongs to author
-- If you are interested in a commercial usage or dedicated versions please contact the developer
 
 
+####  <span style="color: red;">13.3.0"Final" version (2021-12-24)</span> 
 
-#### 13.0.0 Current Version - (2021-09-12)
-
-* New type of digits (green LCD)
-
-#### 12.1.0 Current Version - (2021-09-10)
-
-* Adaption of augmentation range (reduction)
-* Additional images, new type of digits
-
-#### 12.0.0 Current Version - (2021-08-01)
-
-* Save classification in file name instead of subdirectory
-* Additional images, new type of digits
+* The training of the neural network for digital counters is transfered to an fully automated version:
+  https://github.com/jomjol/neural-network-autotrain-digital-counter
 
 
 
