@@ -18,6 +18,14 @@ The readout is used in a water meter measurement system. An overview can be foun
 
 
 
+
+
+
+####  14.0.0 Reactivate (2022-06-30)
+
+* Update to Tensorflow 2.9
+* Accumulated new images
+
 ####  <span style="color: red;">13.3.0"Final" version (2021-12-24)</span> 
 
 * The training of the neural network for digital counters is transfered to an fully automated version:
