@@ -20,6 +20,10 @@ The readout is used in a water meter measurement system. An overview can be foun
 
 
 
+####  14.3.0 Reactivate (2022-09-28)
+
+* New LCD images
+
 ####  14.1.1 Reactivate (2022-08-13)
 
 * Update to new naming convention (not fully finished)
