@@ -40,12 +40,9 @@ def generate(path, prefix, cols):
     # Get list of image paths
     image_paths = [os.path.join(path, f) 
                 for f in os.listdir(path) if (f.startswith(prefix) and f.endswith('.jpg'))]
-
-
-    #image_paths = image_paths[:11]
+    image_paths.sort()
 
     logging.debug("Found %d images." % len(image_paths))
-
 
     rows = math.ceil(float(len(image_paths)) / cols)
 
