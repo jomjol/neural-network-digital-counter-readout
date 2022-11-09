@@ -3,7 +3,18 @@ import math
 from PIL import Image, ImageOps
 import logging
 
-logging.basicConfig(format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%d-%b-%y %H:%M:%S', level=logging.DEBUG)
+
+
+def main():
+    logging.basicConfig(format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%d-%b-%y %H:%M:%S', level=logging.DEBUG)
+
+
+    values = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "NaN"]
+    path = './ziffer_sortiert_raw'
+
+    for value in values:
+        generate(path, value, 15)
+
 
 
 def concat_images(image_paths, size, shape=None):
@@ -54,12 +65,5 @@ def generate(path, prefix, cols):
     image.save("./html_output/digital-" + prefix + ".jpg", 'JPEG')
 
 
-
-
-values = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "NaN"]
-path = './ziffer_sortiert_raw'
-
-for value in values:
-    generate(path, value, 15)
-
-
+if __name__ == "__main__":
+     main()
