@@ -9,10 +9,9 @@ logging.basicConfig(format='%(asctime)s [%(levelname)s] %(message)s', datefmt='%
 def concat_images(image_paths, size, shape=None):
     # Open images and resize them
     width, height = size
-   # width = width * 2
     images = map(Image.open, image_paths)
-    
-    images = [ImageOps.expand(image, border=15,fill='white')
+
+    images = [ImageOps.expand(image, border=5,fill='white')
               for image in images]
     
     images = [ImageOps.fit(image, size, Image.ANTIALIAS) 
@@ -54,7 +53,7 @@ def generate(path, prefix, cols):
 
 
     # Create and save image grid
-    image = concat_images(image_paths, (int(800/cols), int(800/cols)), (rows, cols))
+    image = concat_images(image_paths, (int(500/cols), int(800/cols)), (rows, cols))
     image.save("./html_output/digital-" + prefix + ".jpg", 'JPEG')
 
 
