@@ -11,7 +11,7 @@ def concat_images(image_paths, size, shape=None):
     width, height = size
     images = map(Image.open, image_paths)
 
-    images = [ImageOps.expand(image, border=5,fill='white')
+    images = [ImageOps.expand(image, border=10,fill='white')
               for image in images]
     
     images = [ImageOps.fit(image, size, Image.ANTIALIAS) 
@@ -53,7 +53,7 @@ def generate(path, prefix, cols):
 
 
     # Create and save image grid
-    image = concat_images(image_paths, (int(500/cols), int(800/cols)), (rows, cols))
+    image = concat_images(image_paths, (int(800/cols), int(800/cols)), (rows, cols))
     image.save("./html_output/digital-" + prefix + ".jpg", 'JPEG')
 
 
@@ -63,6 +63,6 @@ values = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "NaN"]
 path = './ziffer_sortiert_raw'
 
 for value in values:
-    generate(path, value, 10)
+    generate(path, value, 15)
 
 
