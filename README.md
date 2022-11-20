@@ -1,24 +1,16 @@
 # neural-network-digital-counter-readout
 
-**<span style="color: red;">This repository is no longer in active usage - follow up see below!</span> **
-
-The follow up of this repository is https://github.com/jomjol/neural-network-autotrain-digital-counter
-
-Major changes.
-
-* automated training via GibHub Action
-* Higher quality of the trained network due to a more strict regulation on the input images.
-  **Attention:** due to the more strict limits on the input images not all training images are transferred to the new repository
-
 
 
 Training and using a neural network to readout the value of a digital counter - example including small node server for demonstration
 
-The readout is used in a water meter measurement system. An overview can be found here: [https://github.com/jomjol/water-meter-measurement-system](https://github.com/jomjol/water-meter-measurement-system)
+The readout is used in a water meter measurement system. 
 
 
 
+####  15.0.0 New Images (2022-11-20)
 
+* New LCD images
 
 ####  14.4.0 Reactivate (2022-11-05)
 
