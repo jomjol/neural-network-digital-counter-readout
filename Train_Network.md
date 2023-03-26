@@ -20,7 +20,7 @@ For reshaping the images the following code can be used: [Image_Preparation.ipyn
 
 ## Training strategy
 
-The details can be found in the Jupyter file itself: ***[Train_CNN_Digital-Readout.ipynb](Train_CNN_Digital-Readout.ipynb)***
+The details can be found in the Jupyter file itself: ***[Train_CNN_Digital-Readout-Small-v3](Train_CNN_Digital-Readout-Small-v3.ipynb)***
 
 The following aspects are implemented:
 
