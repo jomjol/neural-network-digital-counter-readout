@@ -1,4 +1,8 @@
 ## Version
+#### 17.0.2 Current Version (204-03-25)
+
+* New images for digits
+
 #### 13.3.0 Current Version (2021-11-23)
 
 * New images for digits
