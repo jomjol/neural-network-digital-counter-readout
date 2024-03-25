@@ -8,6 +8,10 @@ The readout is used in a water meter measurement system.
 
 
 
+####  17.0.1 New Images (2024-03-25)
+
+* New images (LCD)
+
 ####  16.0.0 New Images (2023-01-13)
 
 * New images (red on black)
