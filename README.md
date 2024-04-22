@@ -4,9 +4,11 @@
 
 Training and using a neural network to readout the value of a digital counter - example including small node server for demonstration
 
-The readout is used in a water meter measurement system. 
+The readout is used in the [AI-on-the-edge-device](https://github.com/jomjol/AI-on-the-edge-device) project.
 
+An overview of all training images can be found at [jomjol.github.io/neural-network-digital-counter-readout](https://jomjol.github.io/neural-network-digital-counter-readout).
 
+# Versions
 
 ####  17.0.1 New Images (2024-03-25)
 
