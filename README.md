@@ -6,7 +6,9 @@ Training and using a neural network to readout the value of a digital counter - 
 
 The readout is used in a water meter measurement system. 
 
+####  18.0.1 New Images (2024-07-21)
 
+* New images (LCD)
 
 ####  17.0.1 New Images (2024-03-25)
 
