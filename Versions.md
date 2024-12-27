@@ -1,4 +1,9 @@
 ## Version
+#### 19.0.0 Current Version (2024-12-27)
+
+* Remove similar images **after** resize --> significantly reduced number of images
+* Update Tensorflow training environment to v2.18
+
 #### 13.3.0 Current Version (2021-11-23)
 
 * New images for digits
