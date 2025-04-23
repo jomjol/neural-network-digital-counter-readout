@@ -132,13 +132,13 @@ def ziffer_data_files(input_dir):
                 imgfiles.append(root + "/" + file)
     return  imgfiles
 
-def remove_similar_images(image_filenames, meter, hashfunc = imagehash.average_hash, savedublicates=False):
+def remove_similar_images(image_filenames, meter, cutoff = 1, hashfunc = imagehash.average_hash, savedublicates=False):
     '''removes similar images. 
     
     '''
     images = []
     count = 0
-    cutoff = 3  # maximum bits that could be different between the hashes. 
+#    cutoff = 3  # maximum bits that could be different between the hashes. 
     print(f"Find similar images now in {len(image_filenames)} images ..." )
 
     datum = date.today().strftime("%Y-%m-%d")
