@@ -10,7 +10,7 @@ def main():
 
 
     values = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
-    path = './ziffer_sortiert_raw'
+    path = './02_data_resize_all_remove_duplicate_and_new_images'
 
     for value in values:
         generate(path, value, 15)
